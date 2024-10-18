@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import videoFile from "./assets/this.mp4";
 
 function App() {
 	return (
@@ -7,9 +8,9 @@ function App() {
 			<header className="App-header">
 				<img src={logo} className="App-logo" alt="logo" />
 				<p>GIF sharing POC</p>
-				<a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-					Learn React
-				</a>
+				<video width="600" controls>
+					<source src={videoFile} type="video/mp4" />
+				</video>
 			</header>
 		</div>
 	);
