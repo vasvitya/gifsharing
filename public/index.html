@@ -1,261 +1,56 @@
 <!DOCTYPE html>
-<html lang="en" translate="no">
+<html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width,initial-scale=1" />
-		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1" />
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-		<link rel="manifest" crossorigin="use-credentials" href="/site.webmanifest" />
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#e5194d" />
-		<meta name="msapplication-TileColor" content="#161617" />
-		<meta name="theme-color" content="#161617" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="#161617" />
-		<link rel="preconnect" href="https://files.redgifs.com" />
-		<link rel="preconnect" href="https://userpic.redgifs.com/" />
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-2048-2732.jpg"
-			media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1668-2388.jpg"
-			media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1536-2048.jpg"
-			media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1488-2266.jpg"
-			media="(device-width: 744px) and (device-height: 1133px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1640-2360.jpg"
-			media="(device-width: 820px) and (device-height: 1180px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1668-2224.jpg"
-			media="(device-width: 834px) and (device-height: 1112px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1620-2160.jpg"
-			media="(device-width: 810px) and (device-height: 1080px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1290-2796.jpg"
-			media="(device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1179-2556.jpg"
-			media="(device-width: 393px) and (device-height: 852px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1284-2778.jpg"
-			media="(device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1170-2532.jpg"
-			media="(device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1125-2436.jpg"
-			media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1242-2688.jpg"
-			media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-828-1792.jpg"
-			media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-1242-2208.jpg"
-			media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-750-1334.jpg"
-			media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<link
-			rel="apple-touch-startup-image"
-			href="/apple-splash-640-1136.jpg"
-			media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)"
-		/>
-		<style>
-			* {
-				box-sizing: border-box;
-				padding: 0;
-				margin: 0;
-				text-transform: none !important;
-				font-family: Poppins, sans-serif;
-			}
-			body {
-				margin: 0;
-				font-weight: 500;
-				-webkit-font-smoothing: antialiased;
-				-moz-osx-font-smoothing: grayscale;
-				background-color: #0b0b28;
-				color: #fff;
-				min-width: 320px;
-			}
-			li {
-				list-style-type: none;
-				list-style-position: inside;
-			}
-			button {
-				cursor: pointer;
-				box-sizing: border-box;
-				text-align: center;
-			}
-		</style>
-		<style>
-			@font-face {
-				font-display: swap;
-				font-family: Poppins;
-				font-style: normal;
-				font-weight: 400;
-				src: url("/assets/fonts/poppins-v20-latin_latin-ext-regular.woff2") format("woff2");
-			}
-			@font-face {
-				font-display: swap;
-				font-family: Poppins;
-				font-style: normal;
-				font-weight: 500;
-				src: url("/assets/fonts/poppins-v20-latin_latin-ext-500.woff2") format("woff2");
-			}
-			@font-face {
-				font-display: swap;
-				font-family: Poppins;
-				font-style: normal;
-				font-weight: 600;
-				src: url("/assets/fonts/poppins-v21-latin_latin-ext-600.woff2") format("woff2");
-			}
-		</style>
-		<script type="text/partytown">
-			window.dataLayer = window.dataLayer||[];window.global=document;window.dataLayer.push({'gtm.start': new Date().getTime(),event:'gtm.js'});
-		</script>
-		<script type="text/partytown" src="https://www.googletagmanager.com/gtm.js?id=GTM-5SCT9DN"></script>
-		<script type="module" crossorigin src="/static/index-BCHlTHUJ.js"></script>
-		<link rel="stylesheet" crossorigin href="/static/common-BeV2yxPj.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-buttons-DZxPkjHB.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-alerts-Bd2wvyt6.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-ads-xVt3jTQA.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-UI-B7QW49NB.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-popup-dispatcher-DukczuZi.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-footer-B4VNJocP.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-header-CjYKVTwW.css" />
-		<link rel="stylesheet" crossorigin href="/static/index-CdIoGY-v.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-styles-uUvH4Kr1.css" />
-		<link rel="stylesheet" crossorigin href="/static/components-app-CXymJfVo.css" />
-		<link rel="canonical" href="https://www.redgifs.com/watch/merrybulkyfoal" />
-		<title>College Doggystyle Rough Porn GIF by complexguy2k</title>
-		<meta name="keywords" content="College, Doggystyle, Rough" />
-		<link
-			rel="alternate"
-			type="application/json+oembed"
-			href="https://api.redgifs.com/v1/oembed?url=https%3A%2F%2Fwww.redgifs.com%2Fwatch%2Fmerrybulkyfoal"
-			title="RedGIFs"
-		/>
-		<link rel="preload" as="image" href="https://files.redgifs.com/MerryBulkyFoal-mobile.jpg" />
-		<meta property="og:title" content="College Doggystyle Rough Porn GIF by complexguy2k" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#000000" />
+		<meta name="description" content="Web site created using create-react-app" />
+		<link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+		<!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+		<!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+		<title>React App</title>
+		<meta property="og:title" content="Amateur Asian Bubble Butt Round Butt Tight Ass Porn GIF by ryansflings" />
 		<meta property="og:site_name" content="RedGIFs" />
 		<meta property="og:type" content="video" />
 		<meta
 			property="og:description"
 			content="Watch this GIF on RedGIFs.com, the best porn GIFs site. RedGIFs is the leading free porn GIFs site in the world. Browse millions of hardcore sex GIFs and the NEWEST porn videos every day!"
 		/>
-		<meta property="og:video" content="https://tbv.sb-cd.com/t/16068517/1/6/td.mp4" />
+		<meta
+			property="og:video"
+			content="https://api.redgifs.com/v2/gifs/dimgreyoutstandingbasilisk/files/DimgreyOutstandingBasilisk-silent.mp4"
+		/>
 		<meta property="og:video:type" content="video/mp4" />
-		<meta property="og:video:width" content="406" />
-		<meta property="og:video:height" content="720" />
-		<meta property="og:video:iframe" content="https://spankbang.com/9kaql/embed/" />
-		<meta property="og:video:duration" content="33" />
-		<meta name="twitter:account_id" content="1186453478928867329" />
-		<meta name="twitter:site" content="@RedGifsOfficial" />
-		<meta name="twitter:creator" content="@RedGifsOfficial" />
-		<meta name="twitter:domain" content="redgifs.com" />
-		<meta name="twitter:title" content="College Doggystyle Rough Porn GIF by complexguy2k | RedGIFs" />
-		<meta name="twitter:card" content="player" />
-		<meta
-			name="twitter:description"
-			content="Watch this GIF on RedGIFs.com, the best porn GIFs site. RedGIFs is the leading free porn GIFs site in the world. Browse millions of hardcore sex GIFs and the NEWEST porn videos every day!"
-		/>
-		<meta name="twitter:url" content="https://spankbang.com/9kaql/embed/" />
-		<meta name="twitter:player" content="https://spankbang.com/9kaql/embed/" />
-		<meta
-			name="twitter:image"
-			content="https://api.redgifs.com/v2/gifs/merrybulkyfoal/files/MerryBulkyFoal-mobile.jpg"
-		/>
-		<meta name="twitter:player:width" content="1080" />
-		<meta name="twitter:player:height" content="1920" />
-		<script type="application/ld+json">
-			{
-				"@context": "http://schema.org",
-				"@type": "SocialMediaPosting",
-				"url": "https://www.redgifs.com/watch/merrybulkyfoal",
-				"headline": "College Doggystyle Rough Porn GIF by complexguy2k",
-				"keywords": "College,Doggystyle,Rough",
-				"mainEntityOfPage": true,
-				"description": "Enjoy this College porn MerryBulkyFoal from complexguy2k. Sign up for free and start building your porn collection from the millions of GIFs and images free on RedGIFs",
-				"datePublished": "%2024-%10-%23UTC%16:%Oct:%rd.0000",
-				"author": { "type": "Person", "name": "complexguy2k", "url": "https://www.redgifs.com/users/complexguy2k" },
-				"interactionStatistic": {
-					"@type": "InteractionCounter",
-					"interactionType": "http://schema.org/LikeAction",
-					"userInteractionCount": 11
-				},
-				"video": {
-					"@type": "VideoObject",
-					"author": "complexguy2k",
-					"contentUrl": "https://tbv.sb-cd.com/t/16068517/1/6/td.mp4",
-					"creator": "complexguy2k",
-					"description": "Enjoy this College porn MerryBulkyFoal from complexguy2k. Sign up for free and start building your porn collection from the millions of GIFs and images free on RedGIFs",
-					"embedUrl": "https://spankbang.com/9kaql/embed/",
-					"height": 854,
-					"keywords": "College,Doggystyle,Rough",
-					"name": "College Doggystyle Rough Porn GIF by complexguy2k",
-					"thumbnailUrl": "https://api.redgifs.com/v2/gifs/merrybulkyfoal/files/MerryBulkyFoal-poster.jpg",
-					"uploadDate": "%2024-%10-%23UTC%16:%Oct:%rd.0000",
-					"url": "https://www.redgifs.com/watch/merrybulkyfoal",
-					"width": 480,
-					"interactionStatistic": {
-						"@type": "InteractionCounter",
-						"interactionType": "http://schema.org/WatchAction",
-						"userInteractionCount": 0
-					}
-				}
-			}
-		</script>
-		<script>
-			window.geolocation_blocked = null;
-		</script>
-		<script>
-			window.geo_country = "HU";
-		</script>
+		<meta property="og:video:width" content="1080" />
+		<meta property="og:video:height" content="1920" />
+		<meta property="og:video:iframe" content="https://www.redgifs.com/ifr/dimgreyoutstandingbasilisk" />
+		<meta property="og:video:duration" content="43" />
 	</head>
 	<body>
-		<noscript>Enable JavaScript to access millions of porn GIFs and pics free on RedGIFs</noscript>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
 		<div id="root"></div>
-		<div id="portal-root"></div>
+		<!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
 	</body>
 </html>
